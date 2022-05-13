@@ -52,9 +52,9 @@ footer {
  */
 
 body {
-    background-color: rgb(170, 170, 170);
+    background-color: #F2F7FF;
     background-attachment: fixed;
-    background-image: url('/img/gray_background_01.jpg');
+    background-image: url('/img/fundo1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ body {
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: #0B409C;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -130,14 +130,14 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: #F2F7FF;
     text-decoration: none;
     padding: .5rem;
 }
 
 .wrap>nav a:hover {
-    color: black;
-    background: rgb(255, 255, 255);
+    color: #FDBE34;
+    background: #10316B;
 }
 
 .wrap>nav span {
@@ -161,7 +161,7 @@ body {
  */
 
 .wrap>footer {
-    background: rgba(0, 0, 0, .75);
+    background: #0B409C;
     padding: 1px 0;
     color: white;
     display: flex;

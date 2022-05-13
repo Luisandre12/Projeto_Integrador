@@ -2,7 +2,7 @@
 
 <footer>
 
-    <a href="/" title="Página inicial"><i class="fa-solid fa-house-chimney fa-fw"></i></a>
+    <a href="/" title="Página inicial"><i class="fa-solid fa-school-flag fa-fw"></i></a>
 
     <div title="Todos os direitos reservados para Vitugo.">&copy; Copyright 2022 Vitugo.</div>
 
