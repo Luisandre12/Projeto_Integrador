@@ -199,8 +199,37 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <h3>Mais contatos</h3>
+
+    <p>Você também pode falar conosco e saber mais em nossas redes sociais:</p>
+
+    <div class="aside-social-box">
+
+        <a href="https://facebook.com/Luferat">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <span>Facebook</span>
+        </a>
+
+        <a href="https://youtube.com/Luferat">
+            <i class="fa-brands fa-youtube fa-fw"></i>
+            <span>Youtube</span>
+        </a>
+
+        <a href="https://github.com/Luferat">
+            <i class="fa-brands fa-github fa-fw"></i>
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://twitter.com/Luferat">
+            <i class="fa-brands fa-twitter fa-fw"></i>
+            <span>Twitter</span>
+        </a>
+
+        <a href="https://twitter.com/Luferat">
+            <i class="fa-brands fa-instagram fa-fw"></i>
+            <span>Instagram</span>
+        </a>
+    </div>
 
 </aside>
 

@@ -177,8 +177,8 @@ body {
 }
 
 .wrap>footer a:hover {
-    background: white;
-    color: black;
+    background: #10316B;
+    color: #FDBE34;
 }
 
 .wrap>footer div {
@@ -205,12 +205,12 @@ body {
 
 .wrap>main>section {
     flex-grow: 1;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: #D3E0EA;
 }
 
 .wrap>main>aside {
     border-top: 3px dotted grey;
-    background: rgba(224, 224, 224, .85);
+    background: #D3E0EA;
 }
 
 .wrap>main>section>h2:first-child,
@@ -223,14 +223,14 @@ body {
  */
 
 .item {
-    background-color: rgb(240, 240, 240);
+    background-color: #D3E0EA;
     margin-bottom: 1rem;
     border: 1px dotted grey;
     cursor: pointer;
 }
 
 .item:hover {
-    background-color: rgb(224, 224, 224);
+    background-color: #1687A7;
 }
 
 .items .item:last-child {
@@ -461,5 +461,23 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
         border-left: 3px dotted grey;
         flex: 0 0 200px;
     }
+}
+/**
+ * Artigos mais visitados na barra lateral.
+ */
+ .side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
 
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
 }

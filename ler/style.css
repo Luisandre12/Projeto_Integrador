@@ -105,7 +105,7 @@ section img {
 /* Comentários */
 
 .comment {
-    background: rgb(224, 224, 224);
+    background: #9AD0EC;
     margin-bottom: 1rem;
     padding: .5rem;
     border-radius: .3rem;
@@ -121,4 +121,10 @@ section img {
     font-style: italic;
     margin-bottom: .25rem;
     font-size: .8rem;
+}
+.comment img {
+    width: 100%;
+    max-width: 50px;
+    margin: auto;
+    border-radius: .5rem;
 }

@@ -48,13 +48,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 </section>
 
 <aside>
-    <div class="perfil">
-    <h3>Programadores</h3>
-        <div class="dados">
-        <p>Nome:Luis André e João Pedro</p>
-        <p></p>
-        </div>
-    </div>
+<div class="author-meta">
+
+<h2>Criadores do site</h2>
+<h3><strong>Luis André e João Pedro</strong></h3>
+<ul>
+    
+    <li>Email(Luis):luisandreferreira2011@gmail.com</li>
+    <li>Email(João):fernandesjoaopedro526@gmail.com</li>
+    <li>Github(Luis):<a href="https://github.com/Luisandre12" target="_blank"> luisandre12</a></li>
+    <li>Github(João):<a href="https://github.com/JoaoPedro16o" target="_blank"> JoaoPedro16o</a></li>
+    <li>Estudantes do curso Técnico em informatica</li>
+    <li>Senac Unidade Madureira</li>
+</ul>
+
+</div>
 </aside>
 
 <?php

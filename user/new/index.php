@@ -142,9 +142,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <section>
 
-    <h2>Cadastre-se</h2>
+    <h2 class="register">Cadastre-se</h2>
 
-    <p class="text-center" style="color:grey"><i class="fa-solid fa-user-plus fa-fw fa-4x"></i></p>
+    <p class="text-center" style="color:#0B409C"><i class="fa-solid fa-user-plus fa-fw fa-4x"></i></p>
 
     <?php
     // Se o cadastro foi finalizado com sucesso...

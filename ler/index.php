@@ -77,7 +77,7 @@ $html_author = <<<HTML
 
 <div class="author-meta">
 
-    <img src="{$artigo['user_photo']}" alt="{$artigo['user_name']}">
+<img src="{$artigo['user_photo']}" alt="{$artigo['user_name']}">
     <h3>{$nome}</h3>
     <ul>
         <li><strong>{$artigo['user_name']}</strong></li>
@@ -175,6 +175,7 @@ if ($res->num_rows > 0) :
      
      <div class="comment">
         <div class="comment-meta">
+        <img src="{$cmt['user_photo']}" alt="{$cmt['user_name']}">
             Por {$cmt['user_name']} em {$cmt['cmt_date_br']}.
         </div>
         {$cmt['cmt_comment']}
@@ -230,6 +231,11 @@ SQL;
     endif;
 
 endif;
+
+// Atualiza contador de visualizações do artigo
+$views = intval($artigo['art_views']) + 1;
+$sql = "UPDATE articles SET art_views = '{$views}' WHERE art_id = '{$artigo['art_id']}'";
+$conn->query($sql);
 
 /************************************************
  * Seus códigos PHP desta página terminam aqui! *
