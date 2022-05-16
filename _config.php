@@ -197,7 +197,7 @@ function upload_photo($photo_dir, $photo_name = '')
 
         $error .= "A foto não está em um formato válido.";
 
-        // Testa o tamanho da imagem...
+        // Testa o tamanho da aimagem...
     } elseif (
         $photo_data['size'] > 1000000   // Imagem tem mais que 1 megabyte?
     ) {
