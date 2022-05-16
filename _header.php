@@ -22,7 +22,7 @@
 
             <a href="/" title="Página inicial"><img src="/img/logo4.png" alt="Logo do site"></a>
 
-            <h1>Vitugo<small>Educação para todos.</small></h1>
+            <h1>O.D.E<small> Ongs de educação.</small></h1>
 
         </header>
 
