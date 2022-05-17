@@ -66,7 +66,7 @@ $html_article = <<<HTML
 HTML;
 
 // Primeiro nome do autor
-$nome = explode(' ', $artigo['user_name'])[0];
+$nome = explode(' ', $artigo['user_name'])[2];
 
 // Obtém a idade do autor
 $idade = get_years_old($artigo['user_birth']);
