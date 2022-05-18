@@ -231,6 +231,7 @@ body {
 
 .item:hover {
     background-color: #1687A7;
+    color: white;
 }
 
 .items .item:last-child {
