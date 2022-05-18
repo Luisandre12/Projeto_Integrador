@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
  *     → https://www.w3schools.com/php/php_variables.asp
  *     → https://www.php.net/manual/pt_BR/language.variables.basics.php
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Ongs de Educação.";
 
 /**
  * Inclui o cabeçalho da página.
@@ -41,7 +41,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <section>
 
-    <h2>Título da página</h2>
+    <h2>Quem somos?</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste aliquam aperiam voluptatem molestias nemo odit unde modi cupiditate exercitationem doloremque quaerat soluta rerum quidem dignissimos officiis sapiente, aut alias!</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio soluta voluptatum consequatur voluptatibus cupiditate temporibus qui, nostrum deserunt minus laudantium in officia rem dignissimos facilis modi culpa error aliquam? Quam?</p>
 
@@ -52,10 +52,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <h2>Criadores do site</h2>
 <h3><strong>Luis André e João Pedro</strong></h3>
+<h4>Redes sociais</h4>
 <ul>
     
-    <li>Email(Luis):luisandreferreira2011@gmail.com</li>
-    <li>Email(João):fernandesjoaopedro526@gmail.com</li>
+    <li>Email(Luis):<a href="mailto:luisandreferreira2011@gmail.com" target="_blank">luisandreferreira2011@gmail.com</a></li>
+    <li>Email(João):<a href="mailto:fernandesjoaopedro526@gmail.com" target="_blank">fernandesjoaopedro526@gmail.com</a></li>
     <li>Github(Luis):<a href="https://github.com/Luisandre12" target="_blank"> luisandre12</a></li>
     <li>Github(João):<a href="https://github.com/JoaoPedro16o" target="_blank"> JoaoPedro16o</a></li>
     <li>Estudantes do curso Técnico em informatica</li>

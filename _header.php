@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/favicon2.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Vitugo - <?php echo $title ?></title>
+    <title>O.D.E - <?php echo $title ?></title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
             <a href="/" title="Página inicial"><img src="/img/logo4.png" alt="Logo do site"></a>
 
-            <h1>Vitugo<small>Educação para todos.</small></h1>
+            <h1>O.D.E<small>Ongs de Educação</small></h1>
 
         </header>
 

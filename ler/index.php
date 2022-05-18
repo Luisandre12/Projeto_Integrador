@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Ongs de Educação.";
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
