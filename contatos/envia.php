@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h3>Oooops!</h3>
 <p>Não foi possível enviar o contato.</p>
-<p>Por favor preencha todos os campos do formulário.</p>
+<p>Você precisa preencher todos os campos do formulário.</p>
 <p><button onclick="history.go(-1)">&larr; Voltar</button></p>
 
 HTML;

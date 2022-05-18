@@ -4,3 +4,9 @@
     text-align: center;
     font-style: italic ;
 }
+@import url('/ler/style.css');
+li {
+    text-align:left;
+    padding: 1px;
+    font-size: 15px;
+}
