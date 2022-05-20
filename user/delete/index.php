@@ -51,7 +51,7 @@ SQL;
 
         // SQL que atualiza o banco de dados.
         $sql = <<<SQL
-
+        
     UPDATE users SET user_status = 'deleted'
     WHERE user_id = '{$user['user_id']}'
     
@@ -99,7 +99,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <section>
 
     <h2>Cancelar Cadastro</h2>
-    <p class="text-center" style="color: grey"><i class="fa-solid fa-user-xmark fa-fw fa-4x"></i></p>
+    <p class="text-center" style="color: red"><i class="fa-solid fa-user-xmark fa-fw fa-4x"></i></p>
     <p>Tem certeza que deseja cancelar seu cadastro? Se cancelar, não será mais possível acessar o conteúdo exclusivo.</p>
     <p>Clique no botão abaixo para cancelar o cadastro.</p>
 
@@ -140,3 +140,4 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
  * Inclui o rodapé da página.
  */
 require($_SERVER['DOCUMENT_ROOT'] . '/_footer.php');
+?>
